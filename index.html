@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tic-tac-toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header> tic-tac-toe</header>
+  <div class="choose"> 
+    <form action="" method="get" id="choose">
+      <fieldset class="names">
+        <label for="first_player">Enter Name For First Player:</label>
+        <input type="text" name="first_player" id="first_player" required>
+      </fieldset>
+      <fieldset class="names">
+        <label for="second_player">Enter Name For Second Player:</label>
+        <input type="text" name="second_player" id="second_player" required>
+      </fieldset>
+      <button type="submit" form="choose" id="btn">Start The Game </button>
+    </form>
+    <h4 class="playerNames"></h4>
+    <h4 class="playerNames2"></h4>
+    <h4 class="whoStarts"></h4>
+    <h1 class="winner"></h1>
+  </div>
+  <div class="tableContainer">
+    <div class="table">
+      <div class="one cell"></div>
+      <div class="two cell"></div>
+      <div class="three cell"></div>
+      <div class="four cell"></div>
+      <div class="five cell"></div>
+      <div class="six cell"></div>
+      <div class="seven cell"></div>
+      <div class="eight cell"></div>
+      <div class="nine cell"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
