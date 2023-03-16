@@ -91,3 +91,6 @@ h4, h1{
 input, button{
   font-family: inherit;
 }
+#computerOrHuman{
+  margin-left: 20px;
+}

@@ -8,14 +8,18 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header> tic-tac-toe</header>
+  <header> Play Tic-Tac-Toe Against   <select id="computerOrHuman" name="computerOrHuman">
+    <option value="Human">Human</option>
+    <option value="Computer">Computer</option>
+  </select>
+</header>
   <div class="choose"> 
     <form action="" method="get" id="choose">
-      <fieldset class="names">
-        <label for="first_player">Enter Name For First Player:</label>
+      <fieldset class="names" id="one">
+        <label for="first_player" id="first_player_label">Enter Name For First Player:</label>
         <input type="text" name="first_player" id="first_player" required>
       </fieldset>
-      <fieldset class="names">
+      <fieldset class="names" id="two">
         <label for="second_player">Enter Name For Second Player:</label>
         <input type="text" name="second_player" id="second_player" required>
       </fieldset>
